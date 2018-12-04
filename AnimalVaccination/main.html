@@ -1,0 +1,110 @@
+<<<<<<< HEAD
+<html>
+<head>
+	<title>Animal Vaccination</title>
+	<link rel="stylesheet" type="text/css" href="new.css">
+	<br><br><br>
+	<center><h1> FMD VACCINATION DATABASE </h1></center>
+</head>
+
+<body>
+		<div class="container">
+		
+		<div class="dropdown">
+		<button class="dropbtn">ADD</button>
+		<div class="dropdown-content">
+		<a href="add2.html">Total Livestock</a>
+		<a href="add3.html">Vaccinated Livestock</a>
+		<a href="add4.html">Man Power</a>
+		</div>
+		</div>
+		
+		<div class="dropdown">
+		<button class="dropbtn">CHANGE</button>
+		<div class="dropdown-content">
+		<a href="change1.html">Total Livestock</a>
+		<a href="change2.html">Vaccinated Livestock</a>
+		<a href="change3.html">Man Power</a>
+		</div>
+		</div>
+		
+		<div class="dropdown">
+		<button class="dropbtn">DISPLAY</button>
+		<div class="dropdown-content">
+		<a href="display1.html">All</a>
+		<a href="display1.php">Specific</a>
+		</div>
+		</div>
+		
+		
+		</div> 
+</body>
+=======
+<html>
+<head>
+	<title>Animal Vaccination</title>
+	
+	<style>
+	body{
+		color: black;
+		background-image: url("image.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	     }
+	</style>
+
+	<script type="text/javascript">
+   	 function goToNewPage()
+   	 {
+        	var url = document.getElementById('list').value;
+        	if(url != 'none') {
+            		window.location = url;
+        	}
+    	}
+	</script>
+
+	<br><br><br>
+	<center><h1> FMD VACCINATION DATABASE </h1></center>
+</head>
+
+<body>
+	<br><br><br><br>
+	
+	<center>
+		<table>
+		<tr><form>
+		<td>ADD</td>
+		<td><select name="list" id="list" accesskey="target">
+    		<option value='none' selected>Select</option>
+    		<option value="add2.html">Total Livestock</option>
+    		<option value="add3.html">Vaccinated Livestock</option>
+    		<option value="add4.html">Man Power</option>
+		<select></td>
+		<td><input type=button value="GO" onclick="goToNewPage()" /></td>
+		</form></tr>
+
+		<tr><form>
+		<td>CHANGE</td> 
+		<td><select name="list" id="list" accesskey="target">
+    		<option value='none' selected>Select</option>
+    		<option value='change1.html'>Total Livestock</option>
+    		<option value='change2.html'>Vaccinated Livestock</option>
+    		<option value='change3.html'>Man Power</option>
+		<select></td>
+		<td><input type=button value="GO" onclick="goToNewPage()" /></td>
+		</form></tr>
+
+		<tr><form>
+		<td>DISPLAY</td>
+		<td><select name="list" id="list" accesskey="target">
+    		<option value='none' selected>Select</option>
+    		<option value='display1.html'>All</option>
+    		<option value='display2.html'>Specific</option>
+		<select></td>
+		<td><input type=button value="GO" onclick="goToNewPage()" /></td>
+		</form></tr>		
+		</table>
+	</center>
+</body>
+>>>>>>> 840ffaef26e81e2a45c1da10dd33fab5d86bec2f
+</html>
